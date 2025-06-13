@@ -96,9 +96,36 @@ body {
 .conteiner__descricao { 
     padding: 2em;
 }
+
 .dispositivos_lista {
     display: flex;
     justify-content: center;
     list-style-type: nome;
     margin: 5em 0
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
 }
